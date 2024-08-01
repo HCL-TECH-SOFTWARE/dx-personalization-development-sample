@@ -64,8 +64,8 @@ Code changes in the [hrf-files](./Pers_Offers/pers_offers/rules/) might be neede
 
     These two tasks generate the demo-users and the pzndemo_db database that is used in this sample Portlet.. For details, please check:
 
-    [Develop a Personalization Portlet](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet){:target="_blank"}  
-    [Install the Personalization sample](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet/pzn_demoinstall/){:target="_blank"}  
+    <a href="https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet" target="_blank">Develop a Personalization Portlet</a>  
+    <a href="https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet/pzn_demoinstall/" target="_blank">Install the Personalization sample</a>
 
 4. Open the folder **\DX-Personalization-Development-Sample\Pers_Offers\pers_offers** in your Microsoft Visual Studio code.
 
