@@ -34,7 +34,7 @@ Code changes in the [hrf-files](./Pers_Offers/pers_offers/rules/) might be neede
 
 2. Import the rules located in [hrf-files](./Pers_Offers/pers_offers/rules/) into your Digital Experience server. Use the following steps to import the rules:
 
-    1. Extract the **Portal_rules_PznOffers.zip** file located in the rules directory to any folder
+    1. Extract the **Portal_rules_PznOffers.zip** file located in the rules directory to any folder.
     2. Login to the Portal Administration page as potal admin user.
     3. Navigate to **Personalization** > **Business Rules**
     4. Click to **New** > **folder** to create a new folder with name **Pers Offers**.
@@ -62,16 +62,16 @@ Code changes in the [hrf-files](./Pers_Offers/pers_offers/rules/) might be neede
     ```ConfigEngine.bat create-pzndemo-users -DPortalAdminPwd=<password> -DWasPassword=<password>```  
     ```ConfigEngine.bat install-pzndemo -DPortalAdminPwd=<password> -DWasPassword=<password>```  
 
-    This two tasks will generate the demo-users and the pzndemo_db database that will be used in this sample Portlet. For details, please check:
+    These two tasks generate the demo-users and the pzndemo_db database that is used in this sample Portlet.. For details, please check:
 
-    [Develop a Personalization Portlet](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet)  
-    [Install the Personalization sample](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet/pzn_demoinstall/)  
+    [Develop a Personalization Portlet](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet){:target="_blank"}  
+    [Install the Personalization sample](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet/pzn_demoinstall/){:target="_blank"}  
 
-4. Open the folder **\DX-Personalization-Development-Sample\Pers_Offers\pers_offers** in your Microsoft Visual Studio code
+4. Open the folder **\DX-Personalization-Development-Sample\Pers_Offers\pers_offers** in your Microsoft Visual Studio code.
 
-5. Compile and package the portlet using the Maven Lifecycle in Microsoft Visual Studio or by using the command line. The maven package command helps to create the war-file that by default will be located in the target directory of this project.  
+5. Compile and package the portlet using the Maven Lifecycle in Microsoft Visual Studio or by using the command line. The Maven package command helps to create the Portlet war file that by default will be located in the target directory of this project.  
 
-6. deploy the portlet on a HCL Digital Experience environment using the dxclient (see tasks.json file) or by manually installing the WAR-file
+6. Deploy the portlet on a HCL Digital Experience environment using the dxclient (see tasks.json file) or by manually installing the WAR file.
 
 ## Additional Information
 
