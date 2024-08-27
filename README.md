@@ -2,9 +2,9 @@
 
 This sample project is to help developers using the [Personalization API](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_programming_ref/using_apis/?h=com.ibm.websphere.personalization) to fully personalize the experience of your users with a personalization portlet.  
 
-This portlet works with four different users (Scott, Andy, Marge and Tawana) and a pre-configured backend database (pzndemo_db). The sample uses a JSP Portlet to show up personalized offers from a database to a specific user that is currently logged in into the HCL Digital Experience server. Details on the personalization demo users, pages and more are detailed in [Personalization Demo](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet/index.html)
+This portlet works with four different users (Scott, Andy, Marge and Tawana) and a pre-configured backend database (pzndemo_db). The sample uses a JSP Portlet to show up personalized offers from a database to a specific user that is currently logged in into the HCL Digital Experience server. Details on the personalization demo users, pages and more are detailed in [Personalization Demo](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet/index.html).  
 
-A personalization portlet is a portlet that can show up specific information to a user based on rules. For details, please check: [Personalization](https://opensource.hcltechsw.com/digital-experience/latest/get_started/product_overview/personalization/?h=personalization)
+A personalization portlet is a portlet that can show up specific information to a user based on rules. For details, please check: [Personalization](https://opensource.hcltechsw.com/digital-experience/latest/get_started/product_overview/personalization/?h=personalization).  
 
 ## Sample screenshot of the Pers Offers Portlet, when logged in as user Scott  
 
@@ -19,9 +19,9 @@ There are some prerequises needed to let the portlet run correctly. Detailed ins
 - Microsoft Visual Studio Code
 - git or git-bash
 - HCL Digital Experience need to be installed locally or remotely. A single server instance is enough.
-- dxclient should be installed, if the pre-configured deployment/undeployment task will be used
+- dxclient should be installed, if the pre-configured deployment/undeployment task will be used.
 
-This sample provides a Maven project, which is ready to use in Microsoft Visual Studio Code. Configuration introductions to setup your HCL DX Java Development environment can be found at [HDX-DEV-300 HCL Digital Experience for Developers (Advanced) - Introduction lesson](https://hclsoftwareu.hcltechsw.com/component/axs/?view=sso_config&id=3&forward=https%3A%2F%2Fhclsoftwareu.hcltechsw.com%2Fcourses%2Flesson%2F%3Fid%3D1777)
+This sample provides a Maven project, which is ready to use in Microsoft Visual Studio Code. Configuration introductions to setup your HCL DX Java Development environment can be found at [HDX-DEV-300 HCL Digital Experience for Developers (Advanced) - Introduction lesson](https://hclsoftwareu.hcltechsw.com/component/axs/?view=sso_config&id=3&forward=https%3A%2F%2Fhclsoftwareu.hcltechsw.com%2Fcourses%2Flesson%2F%3Fid%3D1777).  
 
 **Please notice:**  
 This sample project is created on a Microsoft Windows environment on which the pzndemo_db default location is configured to be on directory:  
@@ -30,13 +30,13 @@ Code changes in the [hrf-files](./Pers_Offers/pers_offers/rules/) might be neede
 
 ## Installation
 
-1. Clone this repository to your development environment
+1. Clone this repository to your development environment.  
 
 2. Import the rules located in [hrf-files](./Pers_Offers/pers_offers/rules/) into your Digital Experience server. Use the following steps to import the rules:
 
     1. Extract the **Portal_rules_PznOffers.zip** file located in the rules directory to any folder.
     2. Login to the Portal Administration page as potal admin user.
-    3. Navigate to **Personalization** > **Business Rules**
+    3. Navigate to **Personalization** > **Business Rules**.
     4. Click to **New** > **Folder** to create a new folder with name **Pers Offers**.
     5. Click the **Import** button and import the following rules into the **Pers Offers** folder.
 
@@ -75,6 +75,6 @@ Code changes in the [hrf-files](./Pers_Offers/pers_offers/rules/) might be neede
 
 ## Additional Information
 
-Detailed steps to create such a personalization Portlet can also be found on the HCL Digital Experience Help Center page [Develop a Personalization Portlet](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet)  
+Detailed steps to create such a personalization Portlet can also be found on the HCL Digital Experience Help Center page [Develop a Personalization Portlet](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet).  
 Please also check:
-[Portlets Development](https://opensource.hcltechsw.com/digital-experience/latest/extend_dx/portlets_development/)
+[Portlets Development](https://opensource.hcltechsw.com/digital-experience/latest/extend_dx/portlets_development/).  
