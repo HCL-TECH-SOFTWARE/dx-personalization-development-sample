@@ -2,7 +2,7 @@
 
 This sample project is to help developers using the [Personalization API](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_programming_ref/using_apis/?h=com.ibm.websphere.personalization) to fully personalize the experience of your users with a personalization portlet.  
 
-This portlet works with four different users (Scott, Andy, Marge and Tawana) and a pre-configured backend database (pzndemo_db). The sample uses a JSP Portlet to show up personalized offers from a database to a specific user that is currently logged in into the HCL Digital Experience server.
+This portlet works with four different users (Scott, Andy, Marge and Tawana) and a pre-configured backend database (pzndemo_db). The sample uses a JSP Portlet to show up personalized offers from a database to a specific user that is currently logged in into the HCL Digital Experience server. Details on the personalization demo users, pages and more are detailed in [Personalization Demo](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet/index.html)
 
 A personalization portlet is a portlet that can show up specific information to a user based on rules. For details, please check: [Personalization](https://opensource.hcltechsw.com/digital-experience/latest/get_started/product_overview/personalization/?h=personalization)
 
