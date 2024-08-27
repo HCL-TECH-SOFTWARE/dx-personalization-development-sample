@@ -2,7 +2,7 @@
 
 This sample project is to help developers using the [Personalization API](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_programming_ref/using_apis/?h=com.ibm.websphere.personalization) to fully personalize the experience of your users with a personalization portlet.  
 
-This portlet works with four different users (scott, andy, marge and tawana) and a pre-configured backend database (pzndemo_db). The sample uses a JSP Portlet to show up personalized offers from a database to a specific user that is currently logged in into the HCL Digital Experience server.
+This portlet works with four different users (Scott, Andy, Marge and Tawana) and a pre-configured backend database (pzndemo_db). The sample uses a JSP Portlet to show up personalized offers from a database to a specific user that is currently logged in into the HCL Digital Experience server.
 
 A personalization portlet is a portlet that can show up specific information to a user based on rules. For details, please check: [Personalization](https://opensource.hcltechsw.com/digital-experience/latest/get_started/product_overview/personalization/?h=personalization)
 
@@ -37,20 +37,20 @@ Code changes in the [hrf-files](./Pers_Offers/pers_offers/rules/) might be neede
     1. Extract the **Portal_rules_PznOffers.zip** file located in the rules directory to any folder.
     2. Login to the Portal Administration page as potal admin user.
     3. Navigate to **Personalization** > **Business Rules**
-    4. Click to **New** > **folder** to create a new folder with name **Pers Offers**.
+    4. Click to **New** > **Folder** to create a new folder with name **Pers Offers**.
     5. Click the **Import** button and import the following rules into the **Pers Offers** folder.
 
-        1. Per_Offers_User.nodes
-        2. Pzn_offers.nodes
-        3. Show+Gold+Offers.nodes
-        4. Show+Platinum+Offers.nodes
-        5. Show+Titanium+Offers.nodes
-        6. Show+Offers+by+Customer+Type.nodes
-        7. Pers+Offers+User+Profiler.nodes
+        - Per_Offers_User.nodes
+        - Pzn_offers.nodes
+        - Show+Gold+Offers.nodes
+        - Show+Platinum+Offers.nodes
+        - Show+Titanium+Offers.nodes
+        - Show+Offers+by+Customer+Type.nodes
+        - Pers+Offers+User+Profiler.nodes
 
     6. Click the **Import** button and select the following rule to be imported into the **main (workspace)** folder.
 
-        1. Pzn_offers+spot.nodes
+        - Pzn_offers+spot.nodes
 
 3. Run the following two ConfigEngine tasks on the HCL Digital Experience server to create the personalization demo users and the backend database with additonal resources like demo pages that will be used for this personalization.
 
@@ -62,10 +62,10 @@ Code changes in the [hrf-files](./Pers_Offers/pers_offers/rules/) might be neede
     ```ConfigEngine.bat create-pzndemo-users -DPortalAdminPwd=<password> -DWasPassword=<password>```  
     ```ConfigEngine.bat install-pzndemo -DPortalAdminPwd=<password> -DWasPassword=<password>```  
 
-    These two tasks generate the demo-users and the pzndemo_db database that is used in this sample Portlet.. For details, please check:
+    These two tasks generate the demo-users and the pzndemo_db database that is used in this sample Portlet. For details, please check:
 
-    [Develop a Personalization Portlet](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet)  
-    [Install the Personalization sample](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet/pzn_demoinstall/)  
+    - [Develop a Personalization Portlet](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet)  
+    - [Install the Personalization sample](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet/pzn_demoinstall/)  
 
 4. Open the folder **\DX-Personalization-Development-Sample\Pers_Offers\pers_offers** in your Microsoft Visual Studio code.
 
@@ -76,3 +76,5 @@ Code changes in the [hrf-files](./Pers_Offers/pers_offers/rules/) might be neede
 ## Additional Information
 
 Detailed steps to create such a personalization Portlet can also be found on the HCL Digital Experience Help Center page [Develop a Personalization Portlet](https://opensource.hcltechsw.com/digital-experience/latest/manage_content/pzn/pzn_portlet)  
+Please also check:
+[Portlets Development](https://opensource.hcltechsw.com/digital-experience/latest/extend_dx/portlets_development/)
